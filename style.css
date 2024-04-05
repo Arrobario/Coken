@@ -55,3 +55,20 @@ footer {
     color: #ffffff;
     padding: 10px 20px;
 }
+@media screen and (max-width: 768px) {
+    header, section, footer {
+        padding: 10px;
+    }
+
+    #interest form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #interest input[type=email], 
+    #interest input[type=submit] {
+        width: auto;
+        margin: 10px 0;
+    }
+}
+
