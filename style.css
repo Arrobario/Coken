@@ -112,5 +112,36 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 0;
 }
+/* Animación suave para enlaces de navegación */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+}
+
+/* Botones */
+button, .btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #218838;
+}
+
+/* Separador de sección estilizado */
+.section-separator {
+    margin: 40px 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #007bff, transparent);
+}
 
 
