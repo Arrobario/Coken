@@ -215,4 +215,43 @@ a:hover, button:hover, .btn:hover {
 .testimonial p {
     margin: 0;
 }
+.timeline {
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 2px;
+    background: #007bff; /* Color de la línea */
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid #007bff; /* Color del punto */
+}
+
+.date {
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff;
+}
 
