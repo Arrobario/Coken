@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coken - Próximamente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Coken</h1>
+        <p>La revolución en la tokenización de vehículos.</p>
+    </header>
+    
+    <section id="about">
+        <h2>¿Qué es Coken?</h2>
+        <p>Explicación detallada de la startup, su misión, visión y valores.</p>
+    </section>
+    
+    <section id="roadmap">
+        <h2>Roadmap</h2>
+        <p>Detalles del roadmap y las etapas clave del proyecto.</p>
+    </section>
+    
+    <section id="community">
+        <h2>Comunidad</h2>
+        <p>Información sobre cómo unirse a la comunidad y apoyar el proyecto.</p>
+    </section>
+    
+    <section id="merchandising">
+        <h2>Merchandising</h2>
+        <p>Productos disponibles para la compra. Los beneficios se destinan al proyecto.</p>
+    </section>
+    
+    <section id="interest">
+        <h2>Me Interesa</h2>
+        <form>
+            <input type="email" placeholder="Tu correo electrónico">
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2024 Coken. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
