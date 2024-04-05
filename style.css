@@ -151,4 +151,25 @@ a, button, .btn {
 a:hover, button:hover, .btn:hover {
     opacity: 0.9;
 }
+.product-card {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-info {
+    margin-top: 20px;
+}
 
