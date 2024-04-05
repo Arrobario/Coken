@@ -144,4 +144,11 @@ button:hover, .btn:hover {
     background: linear-gradient(to right, transparent, #007bff, transparent);
 }
 
+a, button, .btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover, button:hover, .btn:hover {
+    opacity: 0.9;
+}
 
