@@ -49,5 +49,13 @@
     <footer>
         <p>© 2024 Coken. Todos los derechos reservados.</p>
     </footer>
+    <script>
+document.querySelector('#interest form').addEventListener('submit', function(e) {
+    e.preventDefault(); // Esto evita que el formulario se envíe de la manera tradicional
+    const email = document.querySelector('#interest input[type=email]').value;
+    alert('Gracias por tu interés: ' + email);
+    // Aquí podrías agregar más lógica para manejar el email, como enviarlo a una API o base de datos.
+});
+</script>
 </body>
 </html>
